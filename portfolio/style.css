@@ -121,6 +121,19 @@ nav a:hover {
     color: #aaaaaa;
 }
 
+.project-link {
+    display: inline-block;
+    margin-top: 15px;
+    color: #0fb1ac;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.project-link:hover {
+    color: #6FCF97;
+}
+
 /* CONTACT */
 .contact {
     text-align: center;
