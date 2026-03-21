@@ -2,94 +2,142 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elisa Manuelle | Analista de Dados</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-    <nav>
-        <h2>Elisa Manuelle</h2>
-        <ul>
-            <li><a href="#sobre">Sobre</a></li>
-            <li><a href="#projetos">Projetos</a></li>
-            <li><a href="#contato">Contato</a></li>
-        </ul>
-    </nav>
+<header class="site-header">
+    <div class="container header-inner">
+        <div class="logo">Elisa Manuelle</div>
+        <nav>
+            <a href="#about">Sobre</a>
+            <a href="#projects">Projetos</a>
+            <a href="#contact">Contato</a>
+        </nav>
+    </div>
 </header>
 
 <section class="hero">
-    <h1>Analista de Dados focada em decisão e resultado</h1>
-    <p>
-        Transformo dados em direcionamento estratégico para negócio, com foco em eficiência,
-        receita e experiência do cliente.
-    </p>
-    <a href="#projetos" class="btn">Ver projetos</a>
-</section>
-
-<section id="sobre">
-    <h2>Sobre</h2>
-    <p>
-        Atuo com análise de dados aplicada a negócio, conectando comportamento do cliente,
-        indicadores e estratégia. Tenho experiência com modelagem de dados, construção de
-        dashboards e geração de insights acionáveis.
-    </p>
-
-    <p>
-        Meu foco está em entender o “porquê” por trás dos números e traduzir isso em decisões
-        mais inteligentes — seja para aumentar receita, reduzir perdas ou melhorar a experiência.
-    </p>
-
-    <p>
-        Ferramentas: SQL, Power BI, Python e modelagem de dados.
-    </p>
-</section>
-
-<section id="projetos">
-    <h2>Projetos</h2>
-
-    <div class="grid-projetos">
-
-        <div class="card">
-            <h3>Análise de Tráfego – CRO (ANTT)</h3>
-
-            <p>
-                Identificação de padrões de tráfego rodoviário com impacto direto
-                no planejamento operacional.
+    <div class="container hero-inner">
+        <div class="hero-text">
+            <span class="eyebrow">Portfólio de Análise de Dados</span>
+            <h1>Dados aplicados a negócio, com clareza visual e foco em decisão</h1>
+            <p class="hero-highlight">
+                Analista de Dados com foco em performance, eficiência operacional e leitura estratégica.
             </p>
-
-            <span class="tech">Python • Pandas • Power BI</span>
-
-            <a href="https://github.com/elisamanuelle/antt_analise_trafego" target="_blank">Ver projeto</a>
+            <p class="hero-description">
+                Transformo dados em análises acionáveis, dashboards executivos e estrutura analítica para apoiar decisões com mais precisão.
+            </p>
+            <a href="#projects" class="btn">Ver projetos</a>
         </div>
 
+        <div class="hero-photo-card">
+            <img src="images/elisa.jpg" alt="Elisa Manuelle" class="profile-pic">
+        </div>
     </div>
 </section>
 
-<section id="diferencial">
-    <h2>Diferencial</h2>
-
-    <p>
-        Não trabalho apenas com dados — trabalho com decisão.
-    </p>
-
-    <p>
-        Minha abordagem conecta análise técnica com contexto de negócio, evitando dashboards
-        que não geram ação. O foco é sempre transformar informação em direcionamento.
-    </p>
+<section id="about" class="section">
+    <div class="container narrow">
+        <span class="section-tag">Sobre</span>
+        <h2>Visão analítica com contexto de negócio</h2>
+        <p>
+            Atuo na conexão entre dados, indicadores e tomada de decisão. Tenho experiência com análise exploratória,
+            modelagem analítica, construção de dashboards e organização de informação para leitura executiva.
+        </p>
+        <p>
+            Meu foco não é apenas mostrar números, mas transformar dados em direcionamento: o que está acontecendo,
+            por que está acontecendo e onde existe oportunidade de melhoria.
+        </p>
+    </div>
 </section>
 
-<section id="contato">
-    <h2>Contato</h2>
+<section id="projects" class="section">
+    <div class="container">
+        <div class="section-head">
+            <div>
+                <span class="section-tag">Projetos</span>
+                <h2>Cases e entregas analíticas</h2>
+            </div>
+        </div>
 
-    <p><a href="https://linkedin.com/in/elisama-ribeiro" target="_blank">LinkedIn</a></p>
-    <p><a href="https://github.com/elisamanuelle" target="_blank">GitHub</a></p>
+        <div class="projects-grid">
 
+            <article class="card project-card featured">
+                <div class="card-top">
+                    <span class="project-type">Case analítico</span>
+                    <span class="project-year">2026</span>
+                </div>
+
+                <h3>Análise de Tráfego Rodoviário (ANTT)</h3>
+
+                <p>
+                    Estruturação e análise de dados de tráfego para identificar padrões operacionais, comportamento de volume
+                    e impactos relevantes para leitura gerencial.
+                </p>
+
+                <ul class="project-points">
+                    <li>Tratamento e organização dos dados</li>
+                    <li>Leitura analítica com foco operacional</li>
+                    <li>Identificação de padrões com impacto em infraestrutura</li>
+                </ul>
+
+                <div class="project-footer">
+                    <span class="tech-stack">Python • Pandas • Power BI</span>
+                    <a href="https://github.com/elisamanuelle/antt_analise_trafego" target="_blank" class="project-link">
+                        Ver projeto →
+                    </a>
+                </div>
+            </article>
+
+            <article class="card project-card placeholder-card">
+                <div class="card-top">
+                    <span class="project-type">Próximo case</span>
+                    <span class="project-year">Em breve</span>
+                </div>
+
+                <h3>CRM e engajamento de clientes</h3>
+
+                <p>
+                    Espaço reservado para seu próximo projeto com visão de negócio, segmentação e painel executivo.
+                </p>
+
+                <ul class="project-points">
+                    <li>Engajamento e comportamento</li>
+                    <li>Indicadores estratégicos</li>
+                    <li>Leitura executiva para decisão</li>
+                </ul>
+
+                <div class="project-footer">
+                    <span class="tech-stack">SQL • Power BI • Tableau</span>
+                    <span class="project-link soon">Em construção</span>
+                </div>
+            </article>
+
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="section">
+    <div class="container narrow contact-card">
+        <span class="section-tag">Contato</span>
+        <h2>Vamos conversar</h2>
+        <p>
+            Você pode ver mais projetos e acompanhar meu trabalho pelos canais abaixo.
+        </p>
+        <div class="contact-links">
+            <a href="https://github.com/elisamanuelle" target="_blank">GitHub</a>
+            <a href="https://linkedin.com/in/elisama-ribeiro" target="_blank">LinkedIn</a>
+        </div>
+    </div>
 </section>
 
 <footer>
-    <p>© 2026 Elisa Manuelle</p>
+    <div class="container footer-inner">
+        <p>© Elisa Manuelle | Analista de Dados</p>
+    </div>
 </footer>
 
 </body>
