@@ -1,144 +1,125 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <title>Elisa Manuelle | Analista de Dados</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elisa Manuelle | Analista de Dados</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<header class="site-header">
-    <div class="container header-inner">
-        <div class="logo">Elisa Manuelle</div>
-        <nav>
-            <a href="#about">Sobre</a>
-            <a href="#projects">Projetos</a>
-            <a href="#contact">Contato</a>
-        </nav>
+  <header class="header">
+    <div class="container header-content">
+      <a href="#top" class="brand">Elisa Manuelle</a>
+      <nav class="nav">
+        <a href="#sobre">Sobre</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+      </nav>
     </div>
-</header>
+  </header>
 
-<section class="hero">
-    <div class="container hero-inner">
-        <div class="hero-text">
-            <span class="eyebrow">Portfólio de Análise de Dados</span>
-            <h1>Dados aplicados a negócio, com clareza visual e foco em decisão</h1>
-            <p class="hero-highlight">
-                Analista de Dados com foco em performance, eficiência operacional e leitura estratégica.
-            </p>
-            <p class="hero-description">
-                Transformo dados em análises acionáveis, dashboards executivos e estrutura analítica para apoiar decisões com mais precisão.
-            </p>
-            <a href="#projects" class="btn">Ver projetos</a>
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-texto">
+          <span class="tag">Portfólio</span>
+          <h1>Analista de Dados com foco em clareza, negócio e decisão</h1>
+          <p class="hero-destaque">Transformo dados em leitura executiva, indicadores úteis e direcionamento estratégico.</p>
+          <p class="hero-descricao">Atuo na interseção entre análise, performance e comunicação visual, estruturando informações para apoiar decisões com mais precisão.</p>
+          <div class="hero-acoes">
+            <a href="#projetos" class="btn btn-primary">Ver projetos</a>
+            <a href="https://github.com/elisamanuelle" target="_blank" rel="noopener" class="btn btn-secondary">GitHub</a>
+          </div>
         </div>
 
-        <div class="hero-photo-card">
-            <img src="images/elisa.jpg" alt="Elisa Manuelle" class="profile-pic">
-        </div>
-    </div>
-</section>
+        <aside class="hero-card">
+          <img src="images/elisa.jpg" alt="Foto de Elisa Manuelle" class="profile-pic">
+          <div class="hero-card-info">
+            <strong>Especialidades</strong>
+            <p>SQL, Power BI, Python, análise exploratória e modelagem analítica.</p>
+          </div>
+        </aside>
+      </div>
+    </section>
 
-<section id="about" class="section">
-    <div class="container narrow">
-        <span class="section-tag">Sobre</span>
-        <h2>Visão analítica com contexto de negócio</h2>
-        <p>
-            Atuo na conexão entre dados, indicadores e tomada de decisão. Tenho experiência com análise exploratória,
-            modelagem analítica, construção de dashboards e organização de informação para leitura executiva.
-        </p>
-        <p>
-            Meu foco não é apenas mostrar números, mas transformar dados em direcionamento: o que está acontecendo,
-            por que está acontecendo e onde existe oportunidade de melhoria.
-        </p>
-    </div>
-</section>
+    <section id="sobre" class="section">
+      <div class="container section-narrow">
+        <span class="section-label">Sobre</span>
+        <h2>Dados aplicados a contexto real</h2>
+        <p>Analista de dados com foco em performance financeira, eficiência operacional e construção de análises que não param no dashboard. Meu trabalho combina organização técnica, leitura crítica e visão de negócio.</p>
+        <p>Tenho experiência com estruturação de dados, modelagem analítica, geração de insights e apresentação executiva, sempre buscando responder o que está acontecendo, por que está acontecendo e o que vale priorizar.</p>
+      </div>
+    </section>
 
-<section id="projects" class="section">
-    <div class="container">
+    <section id="projetos" class="section">
+      <div class="container">
         <div class="section-head">
-            <div>
-                <span class="section-tag">Projetos</span>
-                <h2>Cases e entregas analíticas</h2>
-            </div>
+          <div>
+            <span class="section-label">Projetos</span>
+            <h2>Cases em destaque</h2>
+          </div>
         </div>
 
         <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-meta">
+              <span class="chip">Case analítico</span>
+              <span class="year">ANTT</span>
+            </div>
+            <h3>Análise de Tráfego Rodoviário</h3>
+            <p>Pipeline completo de dados para análise de tráfego, leitura operacional e impacto na infraestrutura, com organização em camadas Bronze, Silver e Gold.</p>
+            <ul>
+              <li>Tratamento e estruturação dos dados</li>
+              <li>Visualização orientada a leitura gerencial</li>
+              <li>Identificação de padrões com impacto operacional</li>
+            </ul>
+            <div class="project-footer">
+              <span>Python • Pandas • Power BI</span>
+              <a href="https://github.com/elisamanuelle/antt_analise_trafego" target="_blank" rel="noopener">Ver projeto →</a>
+            </div>
+          </article>
 
-            <article class="card project-card featured">
-                <div class="card-top">
-                    <span class="project-type">Case analítico</span>
-                    <span class="project-year">2026</span>
-                </div>
-
-                <h3>Análise de Tráfego Rodoviário (ANTT)</h3>
-
-                <p>
-                    Estruturação e análise de dados de tráfego para identificar padrões operacionais, comportamento de volume
-                    e impactos relevantes para leitura gerencial.
-                </p>
-
-                <ul class="project-points">
-                    <li>Tratamento e organização dos dados</li>
-                    <li>Leitura analítica com foco operacional</li>
-                    <li>Identificação de padrões com impacto em infraestrutura</li>
-                </ul>
-
-                <div class="project-footer">
-                    <span class="tech-stack">Python • Pandas • Power BI</span>
-                    <a href="https://github.com/elisamanuelle/antt_analise_trafego" target="_blank" class="project-link">
-                        Ver projeto →
-                    </a>
-                </div>
-            </article>
-
-            <article class="card project-card placeholder-card">
-                <div class="card-top">
-                    <span class="project-type">Próximo case</span>
-                    <span class="project-year">Em breve</span>
-                </div>
-
-                <h3>CRM e engajamento de clientes</h3>
-
-                <p>
-                    Espaço reservado para seu próximo projeto com visão de negócio, segmentação e painel executivo.
-                </p>
-
-                <ul class="project-points">
-                    <li>Engajamento e comportamento</li>
-                    <li>Indicadores estratégicos</li>
-                    <li>Leitura executiva para decisão</li>
-                </ul>
-
-                <div class="project-footer">
-                    <span class="tech-stack">SQL • Power BI • Tableau</span>
-                    <span class="project-link soon">Em construção</span>
-                </div>
-            </article>
-
+          <article class="project-card project-card-muted">
+            <div class="project-meta">
+              <span class="chip">Próximo case</span>
+              <span class="year">Em breve</span>
+            </div>
+            <h3>CRM e Engajamento de Clientes</h3>
+            <p>Espaço reservado para o seu segundo case, com foco em comportamento, ativação, movimentação e leitura executiva para decisão comercial.</p>
+            <ul>
+              <li>Segmentação e engajamento</li>
+              <li>Indicadores estratégicos</li>
+              <li>Painel com visão executiva</li>
+            </ul>
+            <div class="project-footer">
+              <span>SQL • Power BI • Tableau</span>
+              <span class="soon">Em construção</span>
+            </div>
+          </article>
         </div>
-    </div>
-</section>
+      </div>
+    </section>
 
-<section id="contact" class="section">
-    <div class="container narrow contact-card">
-        <span class="section-tag">Contato</span>
-        <h2>Vamos conversar</h2>
-        <p>
-            Você pode ver mais projetos e acompanhar meu trabalho pelos canais abaixo.
-        </p>
+    <section id="contato" class="section">
+      <div class="container section-narrow contact-box">
+        <span class="section-label">Contato</span>
+        <h2>Onde me encontrar</h2>
+        <p>Para conhecer mais do meu trabalho, acesse meus perfis profissionais.</p>
         <div class="contact-links">
-            <a href="https://github.com/elisamanuelle" target="_blank">GitHub</a>
-            <a href="https://linkedin.com/in/elisama-ribeiro" target="_blank">LinkedIn</a>
+          <a href="https://github.com/elisamanuelle" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://linkedin.com/in/elisama-ribeiro" target="_blank" rel="noopener">LinkedIn</a>
         </div>
-    </div>
-</section>
+      </div>
+    </section>
+  </main>
 
-<footer>
-    <div class="container footer-inner">
-        <p>© Elisa Manuelle | Analista de Dados</p>
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>© Elisa Manuelle | Analista de Dados</p>
     </div>
-</footer>
-
+  </footer>
 </body>
 </html>
