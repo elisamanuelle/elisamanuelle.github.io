@@ -172,14 +172,14 @@ body {
 }
 
 .btn-secondary {
-    background: transparent;
-    border: 1px solid var(--border);
-    color: var(--text);
+    background: var(--accent);
+    color: #ffffff;
+    box-shadow: 0 8px 18px rgba(139, 46, 75, 0.16);
 }
 
 .btn-secondary:hover {
-    border-color: #d7c7b9;
-    background: rgba(255, 255, 255, 0.45);
+    background: var(--accent-hover);
+    transform: translateY(-1px);
 }
 
 /* SECTIONS */
