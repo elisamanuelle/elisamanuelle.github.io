@@ -369,3 +369,154 @@ body {
         font-size: 1.6rem;
     }
 }
+
+/* ===== AJUSTES FINAIS DE LAYOUT ===== */
+
+/* Header mais elegante */
+.header-content {
+    min-height: 74px;
+}
+
+.logo {
+    font-size: 1.15rem;
+}
+
+.main-nav a {
+    font-size: 1rem;
+}
+
+/* Hero mais compacta */
+.hero {
+    padding: 70px 0 42px;
+}
+
+.hero h1 {
+    max-width: 980px;
+    margin: 0 auto 16px;
+}
+
+.hero-highlight {
+    font-size: 1.2rem;
+    max-width: 760px;
+    margin: 0 auto 12px;
+}
+
+.hero-description {
+    max-width: 720px;
+    margin: 0 auto 24px;
+    line-height: 1.7;
+}
+
+.hero-actions {
+    margin-bottom: 22px;
+}
+
+.hero-profile {
+    margin-bottom: 18px;
+}
+
+.profile-pic {
+    width: 140px;
+    height: 140px;
+}
+
+.hero-skills h2 {
+    font-size: 1.15rem;
+    margin-bottom: 4px;
+}
+
+.hero-skills p {
+    font-size: 1rem;
+}
+
+/* Seções com menos vazio */
+.section {
+    padding: 58px 0;
+}
+
+.section h2 {
+    margin-bottom: 18px;
+}
+
+.section p {
+    max-width: 820px;
+}
+
+/* Sobre mais compacto */
+#about .narrow {
+    max-width: 900px;
+}
+
+/* Projetos com aparência mais sólida */
+.projects-grid {
+    margin-top: 12px;
+    gap: 22px;
+}
+
+.card {
+    border-radius: 18px;
+    padding: 26px;
+}
+
+.project-card {
+    min-height: 320px;
+}
+
+.card-tag {
+    margin-bottom: 14px;
+}
+
+.project-card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 12px;
+}
+
+.project-card ul {
+    margin: 0 0 18px 18px;
+}
+
+.project-card li {
+    margin-bottom: 6px;
+}
+
+.project-footer {
+    margin-top: auto;
+    padding-top: 10px;
+    border-top: 1px solid var(--border);
+}
+
+/* Contato deixa de parecer texto perdido */
+.contact-links {
+    margin-top: 20px;
+}
+
+.contact-links a {
+    min-width: 120px;
+    text-align: center;
+}
+
+/* Footer menos solto */
+.site-footer {
+    margin-top: 0;
+    padding: 22px 0 30px;
+}
+
+/* Responsivo */
+@media (max-width: 720px) {
+    .hero {
+        padding: 52px 0 34px;
+    }
+
+    .section {
+        padding: 46px 0;
+    }
+
+    .project-card h3 {
+        font-size: 1.45rem;
+    }
+
+    .profile-pic {
+        width: 124px;
+        height: 124px;
+    }
+}
