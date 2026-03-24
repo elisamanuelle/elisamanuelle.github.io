@@ -278,6 +278,87 @@ body {
     background: rgba(251, 247, 241, 0.98);
 }
 
+.project-card-featured {
+    min-height: 100%;
+}
+
+.project-preview {
+    margin: 6px 0 18px;
+    border-radius: 16px;
+    overflow: hidden;
+    border: 1px solid var(--border);
+    background: var(--surface-2);
+    box-shadow: 0 10px 24px rgba(92, 67, 48, 0.08);
+}
+
+.project-preview a {
+    display: block;
+    text-decoration: none;
+}
+
+.project-preview img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.25s ease;
+}
+
+.project-preview img:hover {
+    transform: scale(1.015);
+}
+
+.project-footer-column {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    align-items: flex-start;
+}
+
+.project-stack {
+    color: var(--text-soft);
+    font-weight: 600;
+}
+
+.project-actions {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.project-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 11px 16px;
+    border-radius: 999px;
+    text-decoration: none;
+    font-weight: 700;
+    border: 1px solid var(--border);
+    background: rgba(255, 253, 250, 0.9);
+    color: var(--accent);
+    transition: 0.2s ease;
+}
+
+.project-link:hover {
+    color: var(--accent-hover);
+    border-color: #d7c7b9;
+    transform: translateY(-1px);
+}
+
+.project-link-primary {
+    background: var(--accent);
+    color: #ffffff;
+    border-color: var(--accent);
+    box-shadow: 0 8px 18px rgba(139, 46, 75, 0.16);
+}
+
+.project-link-primary:hover {
+    background: var(--accent-hover);
+    color: #ffffff;
+    border-color: var(--accent-hover);
+}
+
 /* CONTATO */
 .contact-links {
     display: flex;
