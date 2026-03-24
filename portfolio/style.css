@@ -359,6 +359,20 @@ body {
     border-color: var(--accent-hover);
 }
 
+.dashboard-embed {
+    margin-top: 18px;
+    border-radius: 18px;
+    overflow: hidden;
+    border: 1px solid var(--border);
+    background: rgba(255, 253, 250, 0.96);
+    box-shadow: var(--shadow);
+}
+
+.dashboard-embed iframe {
+    display: block;
+    width: 100%;
+}
+
 /* CONTATO */
 .contact-links {
     display: flex;
