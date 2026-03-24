@@ -359,6 +359,19 @@ body {
     border-color: var(--accent-hover);
 }
 
+.project-objective {
+    margin-bottom: 16px;
+}
+
+.project-insight {
+    margin: 16px 0;
+    padding: 12px 16px;
+    border-radius: 12px;
+    background: rgba(139, 46, 75, 0.08);
+    border-left: 4px solid var(--accent);
+    font-weight: 600;
+}
+
 /* CONTATO */
 .contact-links {
     display: flex;
