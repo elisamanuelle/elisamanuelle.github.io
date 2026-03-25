@@ -372,6 +372,42 @@ body {
     font-weight: 600;
 }
 
+.project-section {
+    margin-bottom: 14px;
+}
+
+.project-label {
+    display: block;
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 4px;
+    color: var(--text-soft);
+    opacity: 0.85;
+}
+
+.project-text {
+    margin: 0;
+    line-height: 1.6;
+    color: var(--text-soft);
+}
+
+.project-text-strong {
+    font-size: 0.98rem;
+    color: var(--text);
+}
+
+.project-card h3 {
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+}
+
+.project-section + .project-section {
+    border-top: 1px dashed rgba(0,0,0,0.04);
+    padding-top: 10px;
+}
+
 /* CONTATO */
 .contact-links {
     display: flex;
