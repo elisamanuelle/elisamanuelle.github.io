@@ -408,6 +408,14 @@ body {
     padding-top: 10px;
 }
 
+.project-quote {
+    font-style: italic;
+    background: rgba(139, 46, 75, 0.05);
+    padding: 12px 14px;
+    border-radius: 10px;
+    border-left: 3px solid var(--accent);
+}
+
 /* CONTATO */
 .contact-links {
     display: flex;
