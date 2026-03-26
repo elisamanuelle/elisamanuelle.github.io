@@ -108,7 +108,7 @@ body {
 }
 
 .hero-content {
-    text-align: center;
+    text-align: unset;
 }
 
 .hero-tag {
