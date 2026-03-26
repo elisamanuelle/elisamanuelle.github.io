@@ -463,9 +463,10 @@ body {
 /* CONTATO */
 .contact-links {
     display: flex;
+    justify-content: flex-start;
     gap: 14px;
     flex-wrap: wrap;
-    margin-top: 20px;
+    margin-bottom: 0;
 }
 
 .contact-links a {
