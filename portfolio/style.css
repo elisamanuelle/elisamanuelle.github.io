@@ -236,17 +236,12 @@ body {
 }
 
 .section-label {
-    font-size: 0.98rem;
+    font-size: 1rem;
     font-weight: 700;
     letter-spacing: 0.08em;
     text-transform: uppercase;
     color: var(--accent);
-}
-
-.section h2 {
-    font-size: 1.55rem;
-    margin-bottom: 8px;
-    line-height: 1.2;
+    margin-bottom: 14px;
 }
 
 .section p {
