@@ -236,15 +236,16 @@ body {
 }
 
 .section-label {
-    font-size: 1rem;
+    font-size: 0.98rem;
     font-weight: 700;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.08em;
     text-transform: uppercase;
+    color: var(--accent);
 }
 
 .section h2 {
-    font-size: clamp(1.35rem, 1.8vw, 1.7rem);
-    margin-bottom: 10px;
+    font-size: 1.55rem;
+    margin-bottom: 8px;
     line-height: 1.2;
 }
 
